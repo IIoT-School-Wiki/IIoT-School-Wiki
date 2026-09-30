@@ -1,4 +1,4 @@
-<img src="gfx/icons/logo.png" alt="Logo" width="300px" height="250px"> <br>
+<img src="gfx/icons/logo.png" alt="Logo" width="1280px" height="640px"> <br>
 # IIoT-School-Wiki
 Sperimentazione di apparecchiature LoRa.
 
