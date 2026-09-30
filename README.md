@@ -26,3 +26,11 @@ La Wiki può essere consultata nei seguenti *tre* formati:
 _Fondatore, scrittore e programmazione_: **Angelo De Florio**
 <br>
 _Supporters_: **Arcangelo Gabriele Dispoto, Alessandro Cassone e Maurizio Mazzeo**
+
+# Altri contenuti in arrivo!
+[![GitHub stars](https://img.shields.io/github/stars/tuo-username/tua-repo?style=social)](https://github.com/IIoT-School-Wiki/IIoT-School-Wiki) <br>
+Se questa wiki ti è stata utile, considera l'idea di lasciare una stella qui su GitHub! Aiuta molto a crescere e a far conoscere il progetto.
+
+# Per contribuire...
+Per qualsiasi correzione, suggerimento o cambiamento nei contenuti del progetto siete pregati di aprire una Pull Request. Grazie per la collaborazione! <br>
+
