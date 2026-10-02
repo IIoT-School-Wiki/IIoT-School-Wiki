@@ -23,7 +23,7 @@ La Wiki può essere consultata nei seguenti *tre* formati:
 - Pagina Web (Coming soon...)
 
 ## Credits
-_Fondatore, scrittore e programmazione_: **Angelo De Florio**
+_Fondatore, scrittore e programmazione_: [**Angelo De Florio**](https://mrnightwatch1141.github.io)
 <br>
 _Supporters_: **Arcangelo Gabriele Dispoto, Alessandro Cassone e Maurizio Mazzeo**
 
