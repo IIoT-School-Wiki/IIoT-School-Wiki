@@ -28,7 +28,7 @@ _Fondatore, scrittore e programmazione_: [**Angelo De Florio**](https://mrnightw
 _Supporters_: **Arcangelo Gabriele Dispoto, Alessandro Cassone e Maurizio Mazzeo**
 
 # Altri contenuti in arrivo!
-[![GitHub stars](https://img.shields.io/github/stars/tuo-username/tua-repo?style=social)](https://github.com/IIoT-School-Wiki/IIoT-School-Wiki) <br>
+[![GitHub stars](https://img.shields.io/github/stars/IIoT-School-Wiki/IIoT-School-Wiki?style=social)](https://github.com/IIoT-School-Wiki/IIoT-School-Wiki) <br>
 Se questa wiki ti è stata utile, considera l'idea di lasciare una stella qui su GitHub! Aiuta molto a crescere e a far conoscere il progetto.
 
 # Per contribuire...
