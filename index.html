@@ -45,11 +45,11 @@ SOFTWARE.
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="#home">
                 <img src="gfx/icons/marconi.png" alt="IISS Marconi-Hack" width="75" height="50">
             </a>
 
-            <a class="navbar-brand" href="#">IIoT School Wiki</a>
+            <a class="navbar-brand" href="#home">IIoT School Wiki</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -62,7 +62,7 @@ SOFTWARE.
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Scopri di più</a>
+                        <a class="nav-link" href="#introduzione">Scopri di più</a>
                     </li>
 
                     <li id="themeDiv" class="nav-item form-check form-switch d-flex align-items-center ms-2">
@@ -75,7 +75,7 @@ SOFTWARE.
             
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search"/>
-                    <button class="btn btn-outline-success d-flex align-items-center me-2" type="submit">
+                    <button class="btn btn-outline-success d-flex align-items-center gap-2 me-2" type="submit">
                         <span>Cerca</span>
                         <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span>
                     </button>
@@ -85,8 +85,13 @@ SOFTWARE.
     </nav>
 
     <div id="pagina" class="d-flex container-fluid py-4">
+        <!-- Pulsante Esplora per smartphone -->
+        <button class="btn btn-outline-secondary d-lg-none mb-2 w-100" type="button" data-bs-toggle="collapse" data-bs-target="#sidenavCollapse" aria-expanded="false" aria-controls="sidenavCollapse">
+            <span class="fa-solid fa-compass me-2" aria-hidden="true"></span>
+            Esplora
+        </button>
         <!-- Sidenav -->
-        <div class="flex-shrink-0 p-3 bg-body-tertiary rounded-2">
+        <div id="sidenavCollapse" class="flex-shrink-0 p-3 bg-body-tertiary rounded-2 collapse d-lg-block">
             <a class="d-flex align-items-center pb-3 mb-3 link-body-emphasis text-decoration-none border-bottom">
                 <span class="fs-5 fw-semibold">Esplora</span>
             </a>
@@ -123,7 +128,7 @@ SOFTWARE.
 
                             <!-- Crediti -->
                             <li>
-                                <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                                <a href="#crediti" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                                     Crediti
                                 </a>
                             </li>
@@ -148,7 +153,7 @@ SOFTWARE.
 
                             <!-- Big Data -->
                             <li>
-                                <a href="#bigdata" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                                <a href="#big-data" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                                     Big Data
                                 </a>
                             </li>
@@ -183,8 +188,28 @@ SOFTWARE.
 
                             <!-- Cloud Computing and Software Freedom -->
                             <li>
-                                <a href="cloud-computing-vs-software-freedom" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                                <a href="#cloud-computing-vs-software-freedom" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                                     Cloud Computing and Software Freedom
+                                </a>
+                            </li>
+                                                        <!-- Unix -->
+                            <li>
+                                <a href="#unix" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                                    Unix
+                                </a>
+                            </li>
+
+                            <!-- GNU -->
+                            <li>
+                                <a href="#gnu" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                                    GNU
+                                </a>
+                            </li>
+
+                            <!-- Linux -->
+                            <li>
+                                <a href="#linux" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                                    Linux
                                 </a>
                             </li>
                         </ul>
@@ -215,7 +240,7 @@ SOFTWARE.
                         <!-- Prima colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Arduino Student Kit</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -231,7 +256,7 @@ SOFTWARE.
                         <!-- Seconda colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Ursalink Environment Monitoring Sensor</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -247,7 +272,7 @@ SOFTWARE.
                         <!-- Terza colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Milesight LoRa Portable Socket</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -263,7 +288,7 @@ SOFTWARE.
                         <!-- Quarta colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Milesight LoRa IoT Sensor</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -279,7 +304,7 @@ SOFTWARE.
                         <!-- Quinta colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Milesight LoRaWAN IoT Ultrasonic Distance Sensor</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -295,7 +320,7 @@ SOFTWARE.
                         <!-- Sesta colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Milesight LoRa Gateway</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -311,7 +336,7 @@ SOFTWARE.
                         <!-- Settima colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Milesight Indoor Ambience Monitoring Sensor LoRaWAN</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -327,7 +352,7 @@ SOFTWARE.
                         <!-- Ottava colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Milesight Indoor Ambience Monitoring Sensor LoRaWAN</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -343,7 +368,7 @@ SOFTWARE.
                         <!-- Nona colonna -->
                         <div class="col-lg-4 d-flex">
                             <div class="card w-100 mb-3">
-                                <img src="" alt="" class="card-img-top">
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='180'%3E%3Crect width='100%25' height='100%25' fill='%23dee2e6'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='18' fill='%236c757d'%3EImmagine in arrivo%3C/text%3E%3C/svg%3E" alt="" class="card-img-top">
                                 <h5 class="card-header">Milesight Indoor Ambience Monitoring Sensor LoRaWAN</h5>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -356,6 +381,16 @@ SOFTWARE.
                             </div>
                         </div>
                     </div>
+            </article>
+            <br>
+            <!-- Crediti -->
+            <article id="crediti">
+                <h4>Crediti</h4>
+                <p>
+                    Fondatore, scrittore e programmazione: <a href="https://mrnightwatch1141.github.io"><b>Angelo De Florio</b></a>.
+                    <br>
+                    Supporters: <b>Arcangelo Gabriele Dispoto, Alessandro Cassone e Maurizio Mazzeo</b>.
+                </p>
             </article>
             <br>
             <article id="introduzione">
@@ -404,6 +439,126 @@ SOFTWARE.
                         </li>
                     </ul>
                 </p>
+                <!-- Modello ITMI -->
+                <img src="gfx/imgs/modello-itmi.jpg" alt="Modello ITMI" class="img-fluid rounded mb-3 article-img">
+                <p>
+                    Le tre caratteristiche fondamentali dei Big Data possono essere riassunte con le 3V:
+                    <ul>
+                        <li>
+                            <b>Volume</b>: si dispone di una grande quantità di dati che richiede spazio di archiviazione sempre crescente;
+                        </li>
+                        <li>
+                            <b>Velocità</b>: possiedono una quantità di dati che sta incrementando ad una velocità sempre maggiore;
+                        </li>
+                        <li>
+                            <b>Varietà</b>: si hanno dati che vengono generati in diversi formati.
+                        </li>
+                    </ul>
+                </p>
+            </article>
+            <!-- Archivio dei Big Data -->
+            <article id="archivio-big-data">
+                <h4>L'archivio dei Big Data</h4>
+                <p>
+                    Generalmente, i Big Data vengono generati su più server, solitamente ospitati all'interno dei Data Center. Per la sicurezza, accessibilità e ridondanza, i dati vengono solitamente distribuiti e/o replicati su molteplici server in molti Data Center tutti diversi tra loro, adottando il Cluster Computing. Un Cluster di calcolo (o di computer) è un insieme di computer indipendenti (chiamati “nodi”) connessi tramite una rete che lavorano insieme, attraverso macchine omogenee e vicine tra loro, per apparire come unico sistema centralizzato.
+                </p>
+                <img src="gfx/imgs/cluster-vs-grid-computing.png" alt="Cluster Computing vs Grid Computing" class="img-fluid rounded mb-3 article-img">
+                <br>
+                <p>
+                    Il Grid Computing è un modello di calcolo distribuito che collega macchine eterogenee (computer e un server) geograficamente distanti tra loro, facendoli funzionare come un unico grande supercomputer virtuale e per condividere risorse inutilizzate.
+                </p>
+            </article>
+            <!-- Edge Computing -->
+            <article id="edge-computing">
+                <h4>Edge Computing</h4>
+                <p>
+                    Architettura o modello di calcolo in cui l'elaborazione e l'archiviazione dei dati avvengono il più vicino possibile al luogo in cui vengono generati, anziché essere inviati a un server centralizzato o al Cloud. Il modello sfrutta i client o i dispositivi degli utenti finali ai “margini” della rete per eseguire una parte essenziale della pre-elaborazione e dello storage richiesto.<br>
+                    In particolare, i dati di un sensore possono essere pre-elaborati “più vicino” al luogo in cui sono stati raccolti. Le informazioni ottenute da tale analisi pre-elaborata possono essere riportate nei sistemi aziendali per modificare i processi, se necessario.<br>
+                    Poiché i dati rilevati dal sensore vengono pre-elaborati dai dispositivi finali all'interno dei sistemi aziendali, la comunicazione tra server e client è notevolmente più veloce, richiedendo meno larghezza di banda rispetto all'invio di dati grezzi al Cloud.
+                </p>
+            </article>
+            <!-- Cloud -->
+            <article id="cloud">
+                <h4>Cloud</h4>
+                <p>
+                    Il Cloud (o letteralmente “nuvola”) è una raccolta di Data Center o gruppi di server connessi. Nel linguaggio tecnologico, è un sistema che permette di archiviare ed elaborare dati o usare programmi tramite Internet (solitamente tramite un'interfaccia web accessibile via browser), sfruttando server remoti anziché la memoria locale del proprio dispositivo (in poche parole, il computer di un altro).
+                </p>
+            </article>
+            <!-- Open Source e Free Software -->
+            <article id="open-source-free-software">
+                <h4>L'Open Source ed il Free Software</h4>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <figure>
+                            <blockquote class="blockquote">
+                                <p><q>
+                                    A me e un altro gruppetto non piacque quando all’MIT furono inserite le password in una delle macchine… volli tentare una specie di azione informatica sovversiva… scoprii come decifrare le password e fui in grado di individuare ciò che ogni persona doveva digitare per entrare nel sistema operativo. Allora, inviai messaggi dicendo: ‘Salve! So che hai scelto la password Pippo, cosa ne dici di fare come me e digitare solo ENTER come password, è molto più breve e facile da scrivere…’. Implicitamente con questo messaggio dicevo loro che la sicurezza era solo una buffonata!
+                                </q></p>
+                            </blockquote>
+                            <figcaption class="blockquote-footer">
+                                <cite title="Richard Stallman">Richard Stallman</cite>.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <p>
+                    L'Open Source è un software il cui codice sorgente è pubblico o accessibile a chiunque in modo completamente gratuito. I termini Free Software (software libero) e Open Source (sorgente libera) indicano quasi sempre lo stesso identico programma o codice, ma entrambi si basano su due concetti filosofici e punti di vista differenti:
+                    <ul>
+                        <li>
+                            <b>Free Software</b>: si concentra più sugli aspetti etici, morali e sociali. Sottolinea il diritto dell'utente di controllare il software, studiarlo, modificarlo e condividerlo. Nasce negli anni ottanta grazie a Richard Stallman e alla Free Software Foundation (FSF). Il Copyleft è la tecnica legale generica per rendere un programma libero ed imporre che tutte le modifiche e versioni estese del programma siano anch'esse software libero.
+                        </li>
+                        <li>
+                            <b>Open Source</b>: si concentra su aspetti tecnici e pragmatici. Pone l'enfasi sulla metodologia di sviluppo aperta, ovvero sul fatto che il codice sorgente sia accessibile a tutti per collaborare, migliorarlo e distribuirlo. Nasce alla fine degli anni novanta con l'Open Source Initiative (OSI).
+                        </li>
+                    </ul>
+                    L'idea del Copyleft (o permesso d'autore) è quella del “Copyright al contrario” consentendo la libera distribuzione di una moltitudine di tipologie di opere che spaziano dal software fino alle opere letterarie, dai video alle opere musicali, dalle banche dati alle fotografie.
+                </p>
+                <img src="gfx/imgs/copyleft.webp" alt="Copyleft" class="img-fluid rounded mb-3 article-img">
+            </article>
+            <!-- Cloud Computing e libertà del software -->
+            <article id="cloud-computing-vs-software-freedom">
+                <h4>Cloud Computing and Software Freedom</h4>
+                <p>
+                    Il movimento Free Software vede il Cloud Computing tradizionale con una profonda preoccupazione etica, considerando i server proprietari remoti come una minaccia alla libertà dell'utente.<br>
+                    Pionieri come Richard Stallman hanno sostenuto che usare il web server di qualcun altro possa lasciare gli utenti completamente indifesi e privati del controllo sui propri dati.<br>
+                    Infatti, la maggior parte dei fornitori Cloud usano e modificano il proprio software internamente, ma poiché non distribuiscono i file binari agli utenti, aggirano le clausole di distribuzione Copyleft come la GNU GPL (GNU Public License), il che significa che le modifiche raramente vengono restituite alla comunità.<br>
+                    Per questo la GNU Affero General Public License o GNU AGPL è una licenza di software libero e Copyleft pensata per risolvere questa falla (ASP loophole).
+                </p>
+                <img src="gfx/imgs/AGPL.webp" alt="GNU AGPL" class="img-fluid rounded mb-3 article-img">
+                <p>
+                    La GNU AGPL è simile alla GNU GPL versione 3, eccetto per il fatto che ha una sezione aggiuntiva (nr. 13) per quanto riguarda la rete di calcolatori. Questa sezione richiede che il codice sorgente, se modificato, sia reso disponibile a chiunque utilizzi il prodotto sulla rete.
+                </p>
+            </article>
+            <!-- Unix -->
+            <article id="unix">
+                <h4>Unix</h4>
+                <p>
+                    Unix è uno storico sistema operativo multiutente e multitasking, originariamente sviluppato in linguaggio di programmazione C alla fine degli anni '60 dai laboratori Bell di AT&amp;T da Ken Thompson e Dennis Ritchie. Unix è nato come evoluzione del sistema Multics (Multiplexed Information and Computing Service), uno dei primi sistemi operativi a condivisione di tempo.
+                </p>
+            </article>
+            <!-- GNU -->
+            <article id="gnu">
+                <h4>GNU ("GNU's Not Unix!")</h4>
+                <p>
+                    GNU è una ampia collezione di software libero che può essere sfruttato come sistema operativo o come parti per altri sistemi operativi.<br>
+                    “GNU's Not Unix!” è un acronimo ricorsivo e sta ad indicare che la progettazione di GNU è simil-Unix, ma differisce da Unix essendo software libero e privo di codice Unix.
+                </p>
+                <img src="gfx/imgs/GNU_Debian.png" alt="GNU Debian" class="img-fluid rounded mb-3 article-img">
+                <p>
+                    Richard Stallman faceva parte di un gruppo di sviluppatori ai laboratori dell'Intelligenza Artificiale del MIT che lavorava all'Incompatible Timesharing System, un sistema operativo sviluppato a tutti gli effetti come un odierno software libero.<br>
+                    Secondo Stallman ciò che lo ha spinto a sviluppare il Progetto GNU era stata una esperienza precedente con Xerox che si rifiutava di fornire l'accesso al codice sorgente di una stampante laser al laboratorio MIT.
+                </p>
+                <img src="gfx/imgs/GNU.webp" alt="GNU" class="img-fluid rounded mb-3 article-img">
+            </article>
+            <!-- Linux -->
+            <article id="linux">
+                <h4>Linux</h4>
+                <p>
+                    Linux è una vera e propria grande famiglia di sistemi operativi liberi ed open source simil-Unix basata sul kernel Linux, la cui prima pubblicazione risale al 17 Settembre 1991 da Linus Torvalds.<br>
+                    Molti membri di questa grande famiglia sono tipicamente forniti come distribuzioni (o distro), i quali includono software di sistema e librerie sviluppate da terze parti come GNU, Red Hat e X.Org. Tuttavia, non tutti i sistemi operativi basati su Linux sono considerati distro, Android ne è un esempio.<br>
+                    Inizialmente, Linux fu progettato come clone di Unix e distribuito sotto la licenza GPL Copyleft.
+                </p>
+                <img src="gfx/imgs/Tux.webp" alt="Tux, la mascotte di Linux" class="img-fluid rounded mb-3 article-img">
             </article>
         </div>
     </div>
